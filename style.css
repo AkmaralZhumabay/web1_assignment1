@@ -1,0 +1,280 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.6;
+
+    color: #283941;
+    background-color: #ded8f6;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    font-size: 38px; 
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+
+h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+
+.site-header {
+    background-color: #544c84;
+    color: white;
+
+    text-align: center;
+
+    padding: 45px 20px;
+
+    border-bottom: 5px solid #453e7a;
+}
+
+
+.subtitle {
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* navigation bar styles */
+.site-nav {
+    background-color: #2e2a56;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #231f40;
+}
+
+
+.site-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0 15px;
+    padding: 8px 5px;
+}
+
+
+/* navigation hover state */
+.site-nav a:hover {
+    color: #c7c1f2;
+    text-decoration: underline;
+}
+
+
+/* keyboard focus */
+.site-nav a:focus {
+    outline: 3px solid #f0d570;
+    outline-offset: 3px;
+}
+
+
+main {
+    width: 900px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    border: 1px solid #d5cfea;
+}
+
+
+.content-section {
+    margin: 20px;
+    padding: 25px;
+    border: 1px solid #c9c2e2;
+    background-color: #faf9ff;
+}
+
+
+#about-me {
+    background-color: #d6d2ed;
+    border-left: 5px solid #6860a0;
+}
+
+
+.profile-image {
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 25px auto;
+    object-fit: cover;
+    border: 5px solid #7269b2;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(2, 2, 2, 0.2);
+}
+
+
+ol,
+ul {
+    padding-left: 30px;
+}
+
+
+li {
+    margin-bottom: 8px;
+}
+
+
+main a {
+    color: #4c439d;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+main a:hover {
+    color: #382f87;
+}
+
+
+.button-section {
+    text-align: center;
+}
+
+
+.main-button,
+.submit-button {
+    background-color: #776eb6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 25px;
+    border: 2px solid #4f4694;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+.main-button:hover,
+.submit-button:hover {
+    background-color: #544b99;
+}
+
+
+/* keyboard focus for buttons */
+.main-button:focus,
+.submit-button:focus {
+    outline: 3px solid #ffe06e;
+    outline-offset: 3px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+th,
+td {
+    border: 1px solid #b3accd;
+    padding: 12px;
+    text-align: left;
+}
+
+
+th {
+    background-color: #7167b6;
+    color: white;
+    font-weight: bold;
+}
+
+
+tr:nth-child(even) {
+    background-color: #dfdbef;
+}
+
+
+.mood-section {
+    text-align: center;
+    background-color: #dfdbf4;
+}
+
+
+.mood-section p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    border: 2px solid #cec6ed;
+    background-color: white;
+}
+
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #aea7ca;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+input[type="color"] {
+    width: 60px;
+    height: 40px;
+    border: 1px solid #b4acd2;
+    padding: 2px;
+}
+
+
+input:focus {
+    outline: 3px solid #aba5ee;
+    outline-offset: 2px;
+}
+
+
+.site-footer {
+    background-color: #282545;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+
+.site-footer p {
+    margin: 0;
+    font-size: 14px;
+}

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title> My First Webpage </title>
+    <link rel="stylesheet" href="style.css"> <!-- link to the external css file for the style of webpage -->
+</head>
+
+<body>
+    <!-- header -->
+    <header class="site-header" id="home">
+        <h1> Welcome to My First Webpage </h1>
+        <p class="subtitle"> A personal webpage created for HTML & CSS Basics </p>
+    </header>
+
+    <!-- navigation bar -->
+    <nav class="site-nav">
+        <a href="#home"> Home </a>
+        <a href="#about-me"> About Me </a>
+        <a href="#hobbies"> Hobbies </a>
+        <a href="#schedule"> Schedule </a>
+        <a href="#mood"> Mood </a>
+        <a href="#contact"> Contact</a>
+    </nav>
+
+    <!-- main content -->
+    <main>
+        <!-- introduction section -->
+        <section class="content-section introduction">
+            <h2> Introduction </h2>
+            <h3> A Little About Me </h3>
+            <p> Hello! My name is Akmaral and I am a Software Engineering student at Astana IT University. I am interested in programming, technology, languages, 
+                other creative activities, music and learning new skills. This webpage introduces my interests, hobbies, favorite websites and university schedule. </p>
+
+           <!-- avatar image -->
+            <img src="images/avatar.jpg" alt="Image of a cat in a purple background" class="profile-image" >
+        </section>
+
+       <!-- about me section -->
+        <section id="about-me" class="content-section">
+            <h2> About Me </h2>
+
+            <p> I enjoy learning new technologies and developing my programming skills. I am currently studying Software Engineering, where I learn different programming 
+                languages, algorithms, databases, web development and other important skills for a career in software development. </p>
+
+            <p> I also enjoy learning foreign languages, discovering new music, playing video games and creating art in my free time. </p>
+        </section>
+
+
+        <!--hobbies section -->
+        <section id="hobbies" class="content-section">
+
+            <h2> My Hobbies </h2>
+            <p> Here are some activities that I enjoy: </p>
+
+            <!--ordered list of hobbies-->
+            <ol>
+                <li> Learning programming </li>
+                <li> Learning foreign languages </li>
+                <li> Playing video games </li>
+                <li> Listening to music </li>
+                <li> Watching anime and animated series </li>
+                <li> Learning new skills </li>
+            </ol>
+        </section>
+
+
+       <!--favorite websites section-->
+        <section class="content-section">
+            <h2> My Favorite Websites </h2>
+            <p> These websites are useful, interesting to me and often used by me: </p>
+
+            <!--unordered list-->
+            <ul>
+                <li>
+                    <a href="https://github.com/" target="_blank"> GitHub </a>
+                </li>
+
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank"> YouTube </a>
+                </li>
+
+                <li>
+                    <a href="https://web.telegram.org/" target="_blank"> Telegram </a>
+                </li>
+
+                <li>
+                    <a href="https://www.canva.com/" target="_blank"> Canva </a>
+                </li>
+            </ul>
+        </section>
+
+
+        <!--button section-->
+        <section class="content-section button-section">
+            <h2> A Button </h2>
+            <p> This button does not perform any action. </p>
+            <button type="button" class="main-button"> Click Me </button>
+        </section>
+
+
+        <!--schedule section-->
+        <section id="schedule" class="content-section">
+
+            <h2> My Class Schedule </h2>
+            <p> Here is an example of my university class schedule: </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th> Subject </th>
+                        <th> Day </th>
+                        <th> Time </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td> Software Design Patterns </td>
+                        <td rowspan="2"> Monday </td>
+                        <td> 16:00 - 17:50 </td>
+                    </tr>
+                    <tr>
+                        <td> Operating Systems </td>
+                        <td> 18:00 - 19:50 </td>
+                    </tr>
+
+                    <tr>
+                        <td> Russian Language </td>
+                        <td rowspan="2"> Tuesday </td>
+                        <td> 14:00 - 15:50</td>
+                    </tr>
+                    <tr>
+                        <td> Web Technologies 1 </td>
+                        <td> 16:00 - 17:50 </td>
+                    </tr>
+
+                    <tr>
+                        <td> Day Off </td>
+                        <td> Wednesday </td>
+                        <td> Not Scheduled </td>
+                    </tr>
+
+                    <tr>
+                        <td> Software Design Patterns </td>
+                        <td rowspan="2"> Thursday </td>
+                        <td> 14:00 - 15:50 </td>
+                    </tr>
+                    <tr>
+                        <td> Design and Analysis of Algorithms </td>
+                        <td> 18:00 - 19:50 </td>
+                    </tr>
+
+                    <tr>
+                        <td> Software Design Patterns </td>
+                        <td rowspan="3"> Friday </td>
+                        <td> 15:00 - 15:50 </td>
+                    </tr>
+                    <tr>
+                        <td> Web Technologies 1 </td>
+                        <td> 16:00 - 16:50 </td>
+                    </tr>
+                    <tr>
+                        <td> Design and Analysis of Algorithms </td>
+                        <td> 17:00 - 17:50 </td>
+                    </tr>
+
+                    <tr>
+                        <td> Design and Analysis of Algorithms </td>
+                        <td> Saturday </td>
+                        <td> 15:00 - 16:50 </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </section>
+
+
+        <!--mood section-->
+        <section id="mood" class="content-section mood-section">
+            <h2> My Mood </h2>
+            <p> I feel motivated to learn something new and improve my programming skills! 😊 💻 ✨ </p>
+            <p> I am excited to try new things! 😁</p>
+        </section>
+
+
+        <!--contact section-->
+        <section id="contact" class="content-section">
+
+            <h2> Contact Form </h2>
+            <p> You can fill in the form below. The information is not stored or sent anywhere. </p>
+
+            <form>
+                <!--name input-->
+                <div class="form-group">
+
+                    <label for="name"> Name: </label>
+
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required
+                    >
+                </div>
+
+                <!-- email -->
+                <div class="form-group">
+
+                    <label for="email"> Email: </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+                </div>
+
+                <!--favorite color-->
+                <div class="form-group">
+
+                    <label for="favorite-color">
+                        Favorite Color:
+                    </label>
+
+                    <input
+                        type="color"
+                        id="favorite-color"
+                        name="favorite-color"
+                        value="#6c63ff"
+                    >
+                </div>
+
+                <!--submit button-->
+                <button type="submit" class="submit-button"> Submit </button>
+            </form>
+
+        </section>
+
+    </main>
+
+
+    <!--footer section-->
+    <footer class="site-footer">
+
+        <p> &copy; 2026 Akmaral | Web Technologies | HTML & CSS Basics | Assignment 1 </p>
+    </footer>
+
+</body>
+
+</html>
